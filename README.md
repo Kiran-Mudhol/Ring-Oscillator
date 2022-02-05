@@ -5,3 +5,5 @@
 3.[Circuit Design](##Cicuit Design)
 
 ## Abstract
+## Circuit Details
+## Circuit Design
