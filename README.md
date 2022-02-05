@@ -58,7 +58,9 @@ The result of transient analysis of VCO @ Vdd = 1.5 V is shown below
   
 ### References
 [1] CMOS Circuit design, Layout and Simulation 3rd edition By R. JACOB BAKER
+
 [2] Design of a Nine Stage Ring Oscillator Using PSO By 
 Preeti Kumari, Madhuresh Suman
+
 [3] Design and analysis of CMOS ring oscillator using 45 nm technology By Vandna Sikarwar, Neha Yadav, Shyam Akashe
 
