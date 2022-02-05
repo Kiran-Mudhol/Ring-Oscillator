@@ -6,9 +6,16 @@
 
 3.[Circuit Design](#Cicuit-Design)
 
-## Abstract
-hi
-## Circuit Details
-hi
-## Circuit Design
-hi
+4.[Waveforms](#Waveform)
+
+5.[References](#References)
+### Abstract
+
+### Circuit Details
+
+### Circuit Design
+
+### Waveform
+
+### References
+
