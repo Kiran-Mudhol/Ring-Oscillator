@@ -53,7 +53,6 @@ VCO (9 - Stage Ring Oscillator) is designed using eSim and the screenshot of sch
 ### Waveform
 After creating the schematics, spice netlist was extracted with the help of esim and the necessary model files of sky130 tt transistors were included in the netlist and transient analysis was performed.
 The result of transient analysis of VCO @ Vdd = 1.5 V is shown below
-![IMP_output](https://user-images.githubusercontent.com/59924751/152653855-e77d3263-bb3d-42ce-b17b-244f8b40e1bd.JPG)
-
+ 
 ### References
 
