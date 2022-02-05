@@ -48,6 +48,8 @@ Reference [2].
 ### Circuit Design
 VCO (9 - Stage Ring Oscillator) is designed using eSim and the screenshot of schematic file is shown below
 
+![IMP_sch](https://user-images.githubusercontent.com/59924751/152653744-3c717d41-618b-4a9a-927a-f9df6882094c.JPG)
+
 ### Waveform
 
 ### References
