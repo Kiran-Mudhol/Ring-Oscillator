@@ -1,0 +1,46 @@
+
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+xM2  Net-_M1-Pad1_ Vout GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+			
+xM3  Net-_M3-Pad1_ Net-_M1-Pad1_ Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15		
+xM4  Net-_M3-Pad1_ Net-_M1-Pad1_ GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+		
+xM5  Net-_M5-Pad1_ Net-_M3-Pad1_ Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15		
+xM6  Net-_M5-Pad1_ Net-_M3-Pad1_ GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+		
+xM7  Net-_M10-Pad2_ Net-_M5-Pad1_ Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15		
+xM8  Net-_M10-Pad2_ Net-_M5-Pad1_ GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+		
+xM9  Net-_M10-Pad1_ Net-_M10-Pad2_ Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15	
+xM10  Net-_M10-Pad1_ Net-_M10-Pad2_ GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+		
+xM11  Net-_M11-Pad1_ Net-_M10-Pad1_ Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15		
+xM12  Net-_M11-Pad1_ Net-_M10-Pad1_ GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+		
+xM13  Net-_M13-Pad1_ Net-_M11-Pad1_ Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15		
+xM14  Net-_M13-Pad1_ Net-_M11-Pad1_ GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+		
+xM15  Net-_M15-Pad1_ Net-_M13-Pad1_ Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15	
+xM16  Net-_M15-Pad1_ Net-_M13-Pad1_ GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+		
+xM17  Vout Net-_M15-Pad1_ Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15		
+xM18  Vout Net-_M15-Pad1_ GND GND sky130_fd_pr__nfet_01v8 w=10 l=0.15
+		
+xM1  Net-_M1-Pad1_ Vout Vdd Vdd sky130_fd_pr__pfet_01v8 w=20 l=0.15	
+
+vdd vdd 0 1.5
+.nodeset v(Vout)=0
+.tran 1ns 3ns .5ns
+
+.control
+run
+set color0 = black
+set color1 = white
+set color2 = yellow
+set xbrushwidth = 2
+plot V(Vout) 
+ 
+ 		
+.endc
+.end
