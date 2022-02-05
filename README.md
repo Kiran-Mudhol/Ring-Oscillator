@@ -46,6 +46,7 @@ Wp = 370.55 Wn = 220.55 and L =172.51 (in nm) is as
 shown in the Reference Wave form Taken from 
 Reference [2].
 ### Circuit Design
+VCO (9 - Stage Ring Oscillator) is designed using eSim and the screenshot of schematic file is shown below
 
 ### Waveform
 
