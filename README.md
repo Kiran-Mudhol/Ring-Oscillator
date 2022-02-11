@@ -25,7 +25,7 @@ going to come back with same specs as with which we
 have designed. So first we need to figure out how 
 different these transistors are from our intended value so 
 in every chip we are going to put a ring Oscillator. To 
-make these measurements output frequency Has to be
+make these measurements output frequency Has to be 
 reduced significantly therefore large N (Number of 
 Inverter Stages) has to be Chosen and we can measure the 
 Frequency of operation using Oscilloscope. These Ring 
@@ -43,28 +43,7 @@ From Reference[2]
 ![otput_wave](https://user-images.githubusercontent.com/59924751/153567693-1f89143a-e880-42b8-83fa-50ac02bdb175.JPG)
 
 ## Circuit Details
-Ring Oscillator consists of odd number of Inverters 
-connected in Series to form a closed loop with positive 
-feedback. These ring oscillators does not require an input
-other than Vdd and Vss Supply Here the number of 
-Stages taken are 9. Frequency of Oscillation of Ring 
-Oscillator is given by Fosc = t/(N(tphl + tplh))
-Where N is (odd) number of inverters
-tplh is a Low to High Delay
-tphl is a High to Low Delay of an Inverter
-if the Number of Stages chosen is high it reduces the 
-power dissipation by the inverter which can be analysed 
-by below equation.I = Q/T
-If the N increases, FOsc Reduces, which intern Increase 
-the T and reduces the Iavg. From P = I.V if I reduces P
-also Reduces which indicates the Reduction in the power 
-Dissipated by the Inverters.as per the Table 1 from the 
-Reference [2] analysis of Various parameters like 
-Frequency and Power Consumption is done for different
-values of Wp, Wn, and L. Transient response for 
-Wp = 370.55 Wn = 220.55 and L =172.51 (in nm) is as 
-shown in the Reference Wave form Taken from 
-Reference [2].
+Ring Oscillator consists of odd number of Inverters connected in Series to form a closed loop with positive feedback. These ring oscillators does not require an input other than Vdd and Vss Supply Here the number of Stages taken are 9. Frequency of Oscillation of Ring Oscillator is given by Fosc = t/(N(tphl + tplh))Where N is (odd) number of inverters tplh is a Low to High Delay tphl is a High to Low Delay of an Inverter if the Number of Stages chosen is high it reduces the power dissipation by the inverter which can be analysed by below equation.I = Q/T If the N increases, FOsc Reduces, which intern Increase the T and reduces the Iavg. From P = I.V if I reduces P also Reduces which indicates the Reduction in the power Dissipated by the Inverters.as per the Table 1 from the Reference [2] analysis of Various parameters like Frequency and Power Consumption is done for different values of Wp, Wn, and L. Transient response for Wp = 370.55 Wn = 220.55 and L =172.51 (in nm) is as shown in the Reference Wave form Taken from Reference [2].
 
 ## Softwares Used
 ### eSim
