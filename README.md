@@ -33,9 +33,11 @@ Oscillators are Called as
  
 ### Reference Circuit Diagram
 
+![sch_new](https://user-images.githubusercontent.com/59924751/153567665-f57cc3f4-e6f2-4074-b40b-9aa006e26394.JPG)
 
 ### Reference Waveform
 
+![otput_wave](https://user-images.githubusercontent.com/59924751/153567693-1f89143a-e880-42b8-83fa-50ac02bdb175.JPG)
 
 ### Circuit Details
 Ring Oscillator consists of odd number of Inverters 
