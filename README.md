@@ -68,6 +68,10 @@ The result of transient analysis of VCO @ Vdd = 1.5 V is shown below
 
 ![final](https://user-images.githubusercontent.com/59924751/152654328-8f4cc87a-1f74-4f98-af74-50ee4e031fbd.JPG)
 
+### Frequency Calculation
+
+![freq_cal_3](https://user-images.githubusercontent.com/59924751/153576947-9432d398-c73d-442a-85e7-57f6b92db82c.JPG)
+
 ## Acknowledgements
 1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. -
 2. SFAL team
