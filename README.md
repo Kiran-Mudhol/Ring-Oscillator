@@ -10,7 +10,7 @@
 
 4.[Softwares Used](#Softwares-Used)
 
-5.[Circuit Design in eSim](#Cicuit-Design-eSim)
+5.[Circuit Design in eSim](#Circuit-Design-in-eSim)
 
 6.[Waveform in ngspice](#Waveform-in-ngspice)
 
