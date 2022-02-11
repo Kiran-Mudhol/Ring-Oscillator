@@ -2,13 +2,21 @@
 ### This Repositery Presents the Design of a 9 Stage Ring Oscillator(VCO)
 1.[Abstract](#Abstract)
 
-2.[Circuit Details](#Circuit-Details)
+2.[Reference Circuit Diagram](#Reference Circuit Diagram)
 
-3.[Circuit Design](#Cicuit-Design)
+3.[Reference Waveform](#Reference Waveform)
 
-4.[Waveforms](#Waveform)
+3.[Circuit Details](#Circuit-Details)
 
-5.[References](#References)
+4.[Software Used](#Software Used)
+
+5.[Circuit Design](#Cicuit-Design)
+
+6.[Waveforms](#Waveform)
+
+7.[Acknowledgements](#Acknowledgements)
+
+8.[References](#References)
 ### Abstract
 During the Fabrication of the Chip (Package) It is not 
 Guaranteed that all the chips coming from the fab are 
@@ -22,6 +30,13 @@ Inverter Stages) has to be Chosen and we can measure the
 Frequency of operation using Oscilloscope. These Ring 
 Oscillators are Called as
  “GLOBAL PROCESS MONITORS”
+ 
+### Reference Circuit Diagram
+
+
+### Reference Waveform
+
+
 ### Circuit Details
 Ring Oscillator consists of odd number of Inverters 
 connected in Series to form a closed loop with positive 
