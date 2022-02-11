@@ -14,9 +14,11 @@
 
 6.[Waveform in ngspice](#Waveform-in-ngspice)
 
-7.[Acknowledgements](#Acknowledgements)
+7.[References](#References)
 
-8.[References](#References)
+8.[Acknowledgements](#Acknowledgements)
+
+9.[Author](#Author)
 
 ## Abstract
 During the Fabrication of the Chip (Package) It is not 
@@ -76,16 +78,21 @@ Here dx Represents TimePeriod (T) of the wave as shown in the above waveform  <b
 So (Frequenyc is Reciprocal of Timeperiod) Frequecny of Oscillation Fosc = 1/T  <br /> 
  Frequecny is 1 / (0.47138 * 10^-9)  <br /> 
  Hence Fosc = 2.12 GHZ  <br /> 
-
-## Acknowledgements
-1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. -
-2. SFAL team
-
-## References
+ 
+ ## References
 [1] CMOS Circuit design, Layout and Simulation 3rd edition By R. JACOB BAKER
 
 [2] Design of a Nine Stage Ring Oscillator Using PSO By 
 Preeti Kumari, Madhuresh Suman
 
 [3] Design and analysis of CMOS ring oscillator using 45 nm technology By Vandna Sikarwar, Neha Yadav, Shyam Akashe
+
+## Acknowledgements
+1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. -
+2. SFAL team
+
+## Author
+ Kiran K. Mudhol <br /> 
+ Studnet at KLE Technological University Hubballi
+
 
