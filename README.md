@@ -72,6 +72,11 @@ The result of transient analysis of VCO @ Vdd = 1.5 V is shown below
 
 ![freq_cal_3](https://user-images.githubusercontent.com/59924751/153576947-9432d398-c73d-442a-85e7-57f6b92db82c.JPG)
 
+Here dx Represents TimePeriod (T) of the wave as shown in the above waveform  <br /> 
+So (Frequenyc is Reciprocal of Timeperiod) Frequecny of Oscillation Fosc = 1/T  <br /> 
+ Frequecny is 1 / (0.47138 * 10^-9)  <br /> 
+ Hence Fosc = 2.12 GHZ  <br /> 
+
 ## Acknowledgements
 1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. -
 2. SFAL team
