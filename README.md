@@ -10,9 +10,9 @@
 
 4.[Softwares Used](#Softwares-Used)
 
-5.[Circuit Design](#Cicuit-Design)
+5.[Circuit Design in eSim](#Cicuit-Design-eSim)
 
-6.[Waveforms](#Waveform)
+6.[Waveform in ngspice](#Waveform-in-ngspice)
 
 7.[Acknowledgements](#Acknowledgements)
 
@@ -57,12 +57,12 @@ http://ngspice.sourceforge.net/docs.html
 The Skywater 130nm technology is developed by Google for 130nm node. The PDK is open source and current under development.
 For more details Visit : 
 https://skywater-pdk.readthedocs.io/en/main/#
-## Circuit Design
+## Circuit Design in eSim
 VCO (9 - Stage Ring Oscillator) is designed using eSim and the screenshot of schematic file is shown below
 
 ![IMP_sch](https://user-images.githubusercontent.com/59924751/152653744-3c717d41-618b-4a9a-927a-f9df6882094c.JPG)
 
-## Waveform
+## Waveform in ngspice
 After creating the schematics, spice netlist was extracted with the help of esim and the necessary model files of sky130 tt transistors were included in the netlist and transient analysis was performed.
 The result of transient analysis of VCO @ Vdd = 1.5 V is shown below
 
