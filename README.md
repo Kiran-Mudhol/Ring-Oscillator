@@ -46,14 +46,17 @@ Ring Oscillator consists of odd number of Inverters connected in Series to form 
 ## Softwares Used
 ### eSim
 It is an Open Source EDA developed by FOSSEE, IIT Bombay
-For more Details visit https://esim.fossee.in/home
+For more Details visit :
+https://esim.fossee.in/home
 
 ### NgSpice
-It is an Open Source Software for Spice Simulations. For more details Visit: http://ngspice.sourceforge.net/docs.html
+It is an Open Source Software for Spice Simulations. For more details Visit:
+http://ngspice.sourceforge.net/docs.html
 
 ### Sky130 Process Development Kit
 The Skywater 130nm technology is developed by Google for 130nm node. The PDK is open source and current under development.
-For more details Visit : https://skywater-pdk.readthedocs.io/en/main/#
+For more details Visit : 
+https://skywater-pdk.readthedocs.io/en/main/#
 ## Circuit Design
 VCO (9 - Stage Ring Oscillator) is designed using eSim and the screenshot of schematic file is shown below
 
