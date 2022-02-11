@@ -18,7 +18,7 @@
 
 8.[References](#References)
 
-### Abstract
+## Abstract
 During the Fabrication of the Chip (Package) It is not 
 Guaranteed that all the chips coming from the fab are 
 going to come back with same specs as with which we 
@@ -32,17 +32,17 @@ Frequency of operation using Oscilloscope. These Ring
 Oscillators are Called as
  “GLOBAL PROCESS MONITORS”
  
-### Reference Circuit Diagram
+## Reference Circuit Diagram
 From Reference[2]
 
 ![sch_new](https://user-images.githubusercontent.com/59924751/153567665-f57cc3f4-e6f2-4074-b40b-9aa006e26394.JPG)
 
-### Reference Waveform
+## Reference Waveform
 From Reference[2]
 
 ![otput_wave](https://user-images.githubusercontent.com/59924751/153567693-1f89143a-e880-42b8-83fa-50ac02bdb175.JPG)
 
-### Circuit Details
+## Circuit Details
 Ring Oscillator consists of odd number of Inverters 
 connected in Series to form a closed loop with positive 
 feedback. These ring oscillators does not require an input
@@ -65,21 +65,34 @@ values of Wp, Wn, and L. Transient response for
 Wp = 370.55 Wn = 220.55 and L =172.51 (in nm) is as 
 shown in the Reference Wave form Taken from 
 Reference [2].
-### Circuit Design
+
+## Softwares Used
+### eSim
+It is an Open Source EDA developed by FOSSEE, IIT Bombay
+For more Details visit https://esim.fossee.in/home
+
+### NgSpice
+It is an Open Source Software for Spice Simulations. For more details Visit: http://ngspice.sourceforge.net/docs.html
+
+### Sky130 Process Development Kit
+The Skywater 130nm technology is developed by Google for 130nm node. The PDK is open source and current under development.
+For more details Visit : https://skywater-pdk.readthedocs.io/en/main/#
+## Circuit Design
 VCO (9 - Stage Ring Oscillator) is designed using eSim and the screenshot of schematic file is shown below
 
 ![IMP_sch](https://user-images.githubusercontent.com/59924751/152653744-3c717d41-618b-4a9a-927a-f9df6882094c.JPG)
 
-### Waveform
+## Waveform
 After creating the schematics, spice netlist was extracted with the help of esim and the necessary model files of sky130 tt transistors were included in the netlist and transient analysis was performed.
 The result of transient analysis of VCO @ Vdd = 1.5 V is shown below
 
 ![final](https://user-images.githubusercontent.com/59924751/152654328-8f4cc87a-1f74-4f98-af74-50ee4e031fbd.JPG)
 
-### Acknowledgements
-Special Thannks Kunal Gosh Sir for privding this apportunity
+## Acknowledgements
+1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. -
+2. SFAL team
 
-### References
+## References
 [1] CMOS Circuit design, Layout and Simulation 3rd edition By R. JACOB BAKER
 
 [2] Design of a Nine Stage Ring Oscillator Using PSO By 
