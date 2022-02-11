@@ -2,13 +2,13 @@
 ### This Repositery Presents the Design of a 9 Stage Ring Oscillator(VCO)
 1.[Abstract](#Abstract)
 
-2.[Reference Circuit Diagram](#Reference Circuit Diagram)
+2.[Reference Circuit Diagram](#Reference-Circuit-Diagram)
 
-3.[Reference Waveform](#Reference Waveform)
+3.[Reference Waveform](#Reference-Waveform)
 
 3.[Circuit Details](#Circuit-Details)
 
-4.[Software Used](#Software Used)
+4.[Softwares Used](#Softwares-Used)
 
 5.[Circuit Design](#Cicuit-Design)
 
@@ -17,6 +17,7 @@
 7.[Acknowledgements](#Acknowledgements)
 
 8.[References](#References)
+
 ### Abstract
 During the Fabrication of the Chip (Package) It is not 
 Guaranteed that all the chips coming from the fab are 
@@ -32,10 +33,12 @@ Oscillators are Called as
  “GLOBAL PROCESS MONITORS”
  
 ### Reference Circuit Diagram
+From Reference[2]
 
 ![sch_new](https://user-images.githubusercontent.com/59924751/153567665-f57cc3f4-e6f2-4074-b40b-9aa006e26394.JPG)
 
 ### Reference Waveform
+From Reference[2]
 
 ![otput_wave](https://user-images.githubusercontent.com/59924751/153567693-1f89143a-e880-42b8-83fa-50ac02bdb175.JPG)
 
@@ -72,6 +75,9 @@ After creating the schematics, spice netlist was extracted with the help of esim
 The result of transient analysis of VCO @ Vdd = 1.5 V is shown below
 
 ![final](https://user-images.githubusercontent.com/59924751/152654328-8f4cc87a-1f74-4f98-af74-50ee4e031fbd.JPG)
+
+### Acknowledgements
+Special Thannks Kunal Gosh Sir for privding this apportunity
 
 ### References
 [1] CMOS Circuit design, Layout and Simulation 3rd edition By R. JACOB BAKER
